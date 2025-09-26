@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Kenangan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home" class="logo">Kopi Kenangan</a>
+            <button class="menu-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">🏠 Home</a></li>
+                <li><a href="#about">ℹ️ About</a></li>
+                <li><a href="#menu">☕ Menu</a></li>
+                <li><a href="#gallery">🖼️ Gallery</a></li>
+                <li><a href="#contact">📞 Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Secangkir Kopi, Sejuta Cerita</h1>
+            <p>Nikmati kopi terbaik dari biji pilihan.</p>
+            <a href="#menu" class="cta">Lihat Menu</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Kopi Kenangan adalah tempat di mana Anda bisa menikmati kopi berkualitas tinggi dalam suasana yang nyaman. Kami percaya bahwa setiap cangkir kopi memiliki cerita, dan kami ingin menjadi bagian dari cerita Anda.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menu Pilihan Kami</h2>
+        <div class="menu-items">
+            <a href="#" class="menu-item-link" data-title="Espresso" data-price="Rp 15.000" data-img="https://images.unsplash.com/photo-1572442388855-458a5849c5bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" data-desc="Ekstrak kopi murni yang pekat dan kaya rasa, disajikan dalam cangkir kecil untuk kenikmatan maksimal.">
+                <div class="menu-item">
+                    <div class="menu-item-image-container">
+                        <img src="https://images.unsplash.com/photo-1572442388855-458a5849c5bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Espresso" loading="lazy">
+                        <div class="overlay">
+                            <span class="overlay-text">Lihat Detail</span>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Espresso</h3>
+                        <p>Rp 15.000</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="menu-item-link" data-title="Cappuccino" data-price="Rp 20.000" data-img="https://images.unsplash.com/photo-1557772611-722dabe20327?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" data-desc="Perpaduan seimbang antara espresso, susu panas, dan busa susu tebal yang lembut di atasnya.">
+                <div class="menu-item">
+                    <div class="menu-item-image-container">
+                        <img src="https://images.unsplash.com/photo-1557772611-722dabe20327?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Cappuccino" loading="lazy">
+                        <div class="overlay">
+                            <span class="overlay-text">Lihat Detail</span>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Cappuccino</h3>
+                        <p>Rp 20.000</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="menu-item-link" data-title="Caffe Latte" data-price="Rp 22.000" data-img="https://images.unsplash.com/photo-1541167760496-162885647544?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" data-desc="Espresso dengan porsi susu panas yang lebih banyak dan lapisan busa tipis, menciptakan rasa yang creamy.">
+                <div class="menu-item">
+                    <div class="menu-item-image-container">
+                        <img src="https://images.unsplash.com/photo-1541167760496-162885647544?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Latte" loading="lazy">
+                        <div class="overlay">
+                            <span class="overlay-text">Lihat Detail</span>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Caffe Latte</h3>
+                        <p>Rp 22.000</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="menu-item-link" data-title="Americano" data-price="Rp 18.000" data-img="https://images.unsplash.com/photo-1594392323729-90516c65c8b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" data-desc="Satu shot espresso yang diencerkan dengan air panas, menghasilkan kopi hitam yang ringan dan nikmat.">
+                <div class="menu-item">
+                    <div class="menu-item-image-container">
+                        <img src="https://images.unsplash.com/photo-1594392323729-90516c65c8b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Americano" loading="lazy">
+                        <div class="overlay">
+                            <span class="overlay-text">Lihat Detail</span>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Americano</h3>
+                        <p>Rp 18.000</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="menu-item-link" data-title="Caffe Mocha" data-price="Rp 25.000" data-img="https://images.unsplash.com/photo-1608079846352-3887e4a4c6e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" data-desc="Kombinasi lezat antara espresso, cokelat, dan susu panas, seringkali dihiasi dengan whipped cream.">
+                <div class="menu-item">
+                    <div class="menu-item-image-container">
+                        <img src="https://images.unsplash.com/photo-1608079846352-3887e4a4c6e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Mocha" loading="lazy">
+                        <div class="overlay">
+                            <span class="overlay-text">Lihat Detail</span>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Caffe Mocha</h3>
+                        <p>Rp 25.000</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="menu-item-link" data-title="Croissant" data-price="Rp 18.000" data-img="https://images.unsplash.com/photo-1587241321921-91a834d6d191?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" data-desc="Pastry renyah berbentuk bulan sabit yang sempurna sebagai teman minum kopi Anda.">
+                <div class="menu-item">
+                    <div class="menu-item-image-container">
+                        <img src="https://images.unsplash.com/photo-1587241321921-91a834d6d191?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Croissant" loading="lazy">
+                        <div class="overlay">
+                            <span class="overlay-text">Lihat Detail</span>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Croissant</h3>
+                        <p>Rp 18.000</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Galeri Suasana</h2>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Gallery Image 1" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Gallery Image 2" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1497636577773-f1231844b336?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Gallery Image 3" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Gallery Image 4" loading="lazy">
+            </div>
+            <button class="carousel-button prev" aria-label="Previous slide">&#10094;</button>
+            <button class="carousel-button next" aria-label="Next slide">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Hubungi Kami</h2>
+        <div class="contact-info">
+            <p><strong>Alamat:</strong> Jl. Jend. Sudirman No. 123, Jakarta</p>
+            <p><strong>Jam Buka:</strong> 08:00 - 22:00</p>
+            <p><strong>Email:</strong> info@kopikenangan.com</p>
+        </div>
+        <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Nama</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="cta">Kirim Pesan</button>
+            <p id="form-status"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kopi Kenangan. All rights reserved.</p>
+    </footer>
+
+    <!-- Menu Item Modal -->
+    <div id="menu-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <img id="modal-img" src="" alt="Menu Item Image">
+            <div class="modal-text">
+                <h3 id="modal-title"></h3>
+                <p id="modal-price"></p>
+                <p id="modal-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <button id="scrollTopBtn" title="Go to top" aria-label="Scroll to top">^</button>
+</body>
+</html>
